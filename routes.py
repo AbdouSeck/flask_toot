@@ -4,7 +4,7 @@ from forms import SignupForm, LoginForm
 import os
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DB_URI')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DB_URL')
 db.init_app(app)
 app.secret_key = 'development-key'
 
