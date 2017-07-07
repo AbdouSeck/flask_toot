@@ -24,7 +24,7 @@ a {
   display: inline-block;
 }
 
-.container {
+.container, .shit_head {
   width: 1000px;
   margin: 0 auto;
 }
@@ -103,6 +103,7 @@ header {
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
+
 
 .title a, .title a:visited {
   color: #3a3a3a;
